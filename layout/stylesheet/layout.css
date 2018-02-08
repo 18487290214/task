@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*titlecss属性*/
+
+header {
+    background-color: #dcdcdc;
+    font-weight: bolder;
+    height: 30px;
+    line-height: 30px;
+}
+
+#am {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.middle {
+     background-color: #d3d3d3;
+    width: 100%;
+    float: left;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+
+}
+
+
+/*中间正文文字缩进*/
+
+.middle .inner p {
+    text-indent: 2em;
+}
+
+.inner {
+    margin-left: 200px;
+    margin-right: 150px;
+    background-size: #ffffff;
+    padding: 10px;
+    min-width: 100px;
+}
+
+
+.lsidebar {
+    background-color: #dcdcdc;
+    margin-right: 10px;
+    width: 200px;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+    float: left;
+    margin-left: -100%;
+}
+
+.rsidebar {
+    background-color: #dcdcdc;
+    width: 150px;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+    float: right;
+    margin-left: -150px;
+    text-indent: 2em;
+}
+
+footer {
+    background-color: #dcdcdc;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-top: 10px;
+}

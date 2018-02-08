@@ -1,0 +1,121 @@
+      #pig {
+          margin-left: 500px;
+          margin-top: 200px;
+      }
+      
+      #head {
+          width: 200px;
+          height: 200px;
+          background-color: #ff69b4;
+          border-radius: 50%;
+          position: absolute;
+          -webkit-animation-name: animations;
+          -webkit-animation-duration: 30s;
+          -webkit-animation-timing-function: ease-in-out;
+          -webkit-animation-iteration-count: infinite;
+      }
+      #head:hover{
+      	background-color: #ff00ff;
+      	
+      }
+      @-webkit-keyframes animations {
+          0% {
+              -webkit-transform: translate(0, 0);
+          }
+          20% {
+              -webkit-transform: scale(2);
+          }
+          30% {
+              -webkit-transform: translate(-200px, -100px);
+          }
+          50% {
+              -webkit-transform: translate(100px, 100px);
+          }
+          100% {
+              -webkit-transform: translate(100px, 0);
+          }
+      }
+      /* 左耳*/
+      
+      .lear {
+          position: absolute;
+          width: 0;
+          height: 0;
+          border: 20px solid #ff1493;
+          border-top-color: transparent;
+          border-left-color: transparent;
+          border-right-color: transparent;
+          margin-left: 10px;
+          transform: rotate(-25deg);
+          animation-name:
+      }
+      /* 右耳*/
+      
+      .rear {
+          position: absolute;
+          width: 0;
+          height: 0;
+          border: 20px solid #ff1493;
+          border-top-color: transparent;
+          border-left-color: transparent;
+          border-right-color: transparent;
+          margin-left: 150px;
+          transform: rotate(25deg);
+      }
+      /*眼睛*/
+      
+      .eyes {
+          position: relative;
+          margin-top: 50px;
+          margin-left: 70px;
+      }
+      
+      .leyes {
+          width: 10px;
+          height: 20px;
+          background-color: #000000;
+          border-radius: 50% 50%;
+          float: left;
+      }
+      
+      .reyes {
+          width: 10px;
+          height: 20px;
+          background-color: #000000;
+          border-radius: 50% 50%;
+          float: left;
+          margin-left: 40px;
+      }
+      /*鼻子*/
+      
+      .nose {
+          width: 70px;
+          height: 50px;
+          background-color: #c71585;
+          border-radius: 50% 50%;
+          position: relative;
+          top: 50px;
+          left: 65px;
+      }
+      
+      .ln {
+          width: 15px;
+          height: 25px;
+          background-color: #ff1493;
+          border-radius: 50% 50%;
+          float: left;
+          position: absolute;
+          margin-left: 15px;
+          margin-top: 10px;
+      }
+      
+      .rn {
+          width: 15px;
+          height: 25px;
+          background-color: #ff1493;
+          border-radius: 50% 50%;
+          float: left;
+          margin-left: 40px;
+          margin-top: 10px;
+          position: absolute;
+      }

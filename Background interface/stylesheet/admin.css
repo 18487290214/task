@@ -1,0 +1,29 @@
+
+ul,
+li {
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.col-sm-9{
+margin: 0;
+padding: 0;
+}
+
+.page-header{
+	position: relative;
+	top: 16px;
+}

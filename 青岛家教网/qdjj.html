@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>青岛家教网</title>
+    <link rel="stylesheet" type="text/css" href="../青岛家教网/qdjj/qdjj.css">
+</head>
+
+<body>
+    <div class="div1">
+        <header>
+            <div class="div2">
+                <img src="../青岛家教网/imag/qdjjlogo.gif">
+            </div>
+            <div class="div3">
+                <nav>
+                    <a href="http://www.qdjj.net/member/register.asp">
+                        <font color="red">注册</font>
+                    </a>
+                    <a href="http://www.qdjj.net/login.asp">
+                        <font color="red">登录</font>
+                    </a>
+                    <a href="javascript:window.external.addFavorite('http://www.qdjj.net','%E9%9D%92%E5%B2%9B%E5%AE%B6%E6%95%99%E7%BD%91')">
+                        <font color="red">收藏本站</font>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <div class="form1">
+        <form >
+            <table class="table1" border="1" cellpadding="10">
+                <caption class="cap">
+                    新教员注册第二步
+                </caption>
+                <thead>
+                    <tr>
+                        <td colspan="2"><span>您的注册资料越详细就越有利于家长和学员检索，也就越容易获得家长的预约，所以请您务必如实详细地填写。 其中红色星号<font color="red">（*）</font>为必填。我们已对您的个人信息做保密处理，您的信息是安全的。 您选择的是<font color="red">大学生</font>>身份,若有误请<a href="javascript:history.go(-1);">返回</a>更改</span>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan="2" bgcolor="grey">基本资料</th>
+                    </tr>
+                    <tr>
+                        <td width="175">
+                            <label for="truname">
+                                <font color="red">*</font>真实姓名:</label>
+                        </td>
+                        <td width="186">
+                            <input required placeholder="请输入你的姓名" type="text" name="真实姓名" id="truename">
+                            <br>
+                            <font color="red">注意：</font>
+                            <font color="blue">姓名应与身份证完全一致，本网站将对你的姓名严格保密，只显示您的姓，如“张教员”。此部分将在认证时严格审查，一经填写不得修改，与证件不符者将不能通过认证！</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="IDcard">
+                                <font color="red">*</font>身份证/护照:</lable>
+                        </td>
+                        <td>
+                            <input required placeholder="请输入你的身份证号或护照"  type="text" name="身份证/护照" id="IDcard">
+                            <font color="blue">(此项将严格保密，不对外公开)</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="select">
+                                <font color="red">*</font>性别:</label>
+                        </td>
+                        <td>
+                            <select name="select" id="select">
+                                <option value="请选择">请选择</option>
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date">
+                                <font color="red">*</font>出生年份:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="date" id="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="textfield">
+                                <font color="red">*</font>专业:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="textfield" id="textfield">
+                            <font color="blue">请如实填写专业全名，以学生证为准。此部分将在认证时严格审查，与证件不符者将不能通过认证！</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="select1">
+                                <font color="red">*</font>目前（最高）学历：</label>
+                        </td>
+                        <td>
+                            <select name="select1" id="select1">
+                                <option value="请选择">请选择</option>
+                                <option value="大专以下">大专以下</option>
+                                <option value="大专">大专</option>
+                                <option value="本科">本科</option>
+                                <option value="硕士">硕士</option>
+                                <option value="博士">博士</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select2">
+                                <font color="red">*</font>目前身份:</lable>
+                        </td>
+                        <td>
+                            <select name="select2" id="select2">
+                                <option value="请选择">请选择</option>
+                                <option value="大专在读">大专在读</option>
+                                <option value="本科大一">本科大一</option>
+                                <option value="本科大二">本科大二</option>
+                                <option value="本科大三">本科大三</option>
+                                <option value="本科大四">本科大四</option>
+                                <option value="本科大五">本科大五</option>
+                                <option value="在读硕士生">在读硕士生</option>
+                                <option value="硕士进修老师">硕士进修老师</option>
+                                <option value="在读博士生">在读博士生</option>
+                                <option value="其他学生">其他 学生</option>
+                            </select>
+                            <font color="blue">请及时更新自己的身份，暑假期间注册，请选择下一学期的身份</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select3">
+                                <font color="red">*</font>籍贯/生源地：</lable>
+                        </td>
+                        <td>
+                            <select name="select3" id="select3">
+                                <option value="请选择">请选择</option>
+                                <option value="云南">云南</option>
+                                <option value="北京">北京</option>
+                                <option value="上海">上海</option>
+                                <option value="西藏">西藏</option>
+                                <option value="新疆">新疆</option>
+                                <option value="山西">山西</option>
+                                <option value="陕西">陕西</option>
+                                <option value="海南">海南</option>
+                                <option value="天津">天津</option>
+                                <option value="安徽">安徽</option>
+                                <option value="江苏">江苏</option>
+                                <option value="浙江">浙江</option>
+                                <option value="四川">四川</option>
+                                <option value="湖南">湖南</option>
+                                <option value="湖北">湖北</option>
+                                <option value="河南">河南</option>
+                                <option value="河北">河北</option>
+                                <option value="香港">香港</option>
+                                <option value="澳门">澳门</option>
+                            </select>
+                            <font color="blue">（并非指当前所在地）</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select4">
+                                <font color="red">*</font>毕业/就读高校：</lable>
+                        </td>
+                        <td>
+                            <select name="select4" id="select4">
+                                <option value="请选择">请选择</option>
+                                <option value="云南大学">云南大学</option>
+                                <option value="云南财经大学">云南财经大学</option>
+                                <option value="昆明理工大学">昆明理工大学</option>
+                                <option value="云南农业大学">云南农业大学</option>
+                                <option value="西南林业大学">西南林业大学</option>
+                                <option value="大理大学">大理大学</option>
+                                <option value="红河学院">红河学院</option>
+                                <option value="曲靖师范学院">曲靖师范学院</option>
+                            </select>
+                            <font color="blue">若列表中无选项，请在文本框中填写</font>
+                            <input type="text" name="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="highschool">
+                                <font color="red">*</font>高中母校:</lable>
+                        </td>
+                        <td>
+                            <input type="text" name="highschool" id="highschool">
+                            <font color="blue">请填全称（省份、市、中学名称，如果是省市重点中学请注明）</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" bgcolor="grey">
+                            <lable>联系方式</lable>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="tel">
+                                <font color="red">*</font>手机/小灵通:</lable>
+                        </td>
+                        <td>
+                            <input type="tel">
+                            <font color="blue">最好留下多个联系方式，换号时请及时更新联系方式</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select5">
+                                <font color="red">*</font>目前住所:</lable>
+                        </td>
+                        <td>
+                            <select name="select5" id="select5">
+                                <option value="请选择">请选择</option>
+                                <option value="五华区">五华区</option>
+                                <option value="西山区">西山区</option>
+                                <option value="官渡区">官渡区</option>
+                                <option value="呈贡大学城">呈贡大学城</option>
+                                <option value="杨林大学城">杨林大学城</option>
+                            </select>
+                            <font color="blue">选择离您的住所最近的地点</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select6">家庭或校外住所：</lable>
+                        </td>
+                        <td>
+                            <select name="select6" id="select6">
+                                <option value="请选择">请选择</option>
+                                <option value="一大街">一大街</option>
+                                <option value="二大街">二大街</option>
+                                <option value="三大街">三大街</option>
+                            </select>
+                            <font color="blue">请家在青岛市区或住在校外的教员填写</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="Email">
+                                <font color="red">*</font>Email:</lable>
+                        </td>
+                        <td>
+                            <input type="email">
+                            <font color="blue">(为通知合适您的家教及找回密码，请认真填写)</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="text">
+                                <font color="red">*</font>QQ:</lable>
+                        </td>
+                        <td>
+                            <input type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="address">
+                                <font color="red">*</font>详细地址:</lable>
+                        </td>
+                        <td>
+                            <input type="text" name="address" id="address">
+                            <font color="blue">(以方便我们给您寄送家教相关资料及协议等。)</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" bgcolor="grey">
+                            <lable>家教信息</lable>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select7">
+                                <font color="red">*</font>普通话:</lable>
+                        </td>
+                        <td>
+                            <select name="select7" id="select7">
+                                <option value="标准">标准</option>
+                                <option value="一般">一般</option>
+                                <option value="较差">较差</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select8">
+                                <font color="red">*</font>第一外语:</lable>
+                        </td>
+                        <td>
+                            <select name="select8" id="select8">
+                                <option value="汉语">汉语</option>
+                                <option value="英语">英语</option>
+                            </select>
+                            <select name="select9" id="select9">
+                                <option value="四级">四级</option>
+                                <option value="六级">六级</option>
+                                <option value="专四">专四</option>
+                                <option value="专八">专八</option>
+                                <option value="精通">精通</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="select10">第二外语:</lable>
+                        </td>
+                        <td>
+                            <select name="select10" id="select10">
+                                <option value="俄语">俄语</option>
+                                <option value="泰语">泰语</option>
+                                <option value="其他">其他</option>
+                            </select>
+                            <select name="select11" id="select11">
+                                <option value="一般">一般</option>
+                                <option value="熟练">熟练</option>
+                                <option value="精通">精通</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="textarea">
+                                <font color="red">*</font>自我描述与特长展示:</label>
+                        </td>
+                        <td>
+                            <textarea name="textarea" cols="50" rows="10" id="textarea"></textarea>
+                            <br>
+                            <font color="blue"> 全面展示你的实力和优势特长，增加你简历的含金量！例如：在比赛中得过什么重要奖项，获得过什么奖学金，取得什么样的高考成绩，有哪些能证明你能力的资格证书之类。 不得少于50字，不得超过500字。家长选择你的重要依据，请认真填写！</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>家教经历（教学成果）:</lable>
+                        </td>
+                        <td>
+                            <textarea name="textarea1" id="texearea1" cols="50" rows="10"></textarea>
+                            <br>
+                            <font color="blue">这些内容是对您教学水平最有力和最直接的反映！是学员选择您的一项重要依据。字数500字以内。最好说明辅导时间、学生年级、辅导效果。可参考以下形式：2008年10月-12月，市南区初三学生英语，期终考试从全班第30名上升至第10名，英语从60分提升到80分。</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1">
+                            <font color="red">*</font>可辅导的科目（不超过十项）:</td>
+                        <td id="td1">
+                            <span><font color="red">教员在选择中考、高考、雅思、新概念等有难度的科目时应量力而行，最好有实际辅导经验。</font></span>
+                            <br>
+                            <span>---小学---</span>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_0"> 语文
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_1"> 数学
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_2"> 英语
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_3"> 全科
+                                </label>
+                            </p>
+                            <span>---初中---</span>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_0"> 语文
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_1"> 英语
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_2"> 数学
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_3"> 地理
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_4"> 历史
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_5"> 政治
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_6"> 生物
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_7"> 物理
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup2" value="复选框" id="CheckboxGroup2_8"> 化学
+                                </label>
+                            </p>
+                            <span>---高中---</span>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_0"> 语文
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_1"> 数学
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_2"> 英语
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_3"> 地理
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_4"> 历史
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_5"> 政治
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_6"> 生物
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_7"> 物理
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_8"> 化学
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_9"> 美术
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup3" value="复选框" id="CheckboxGroup3_10"> 音乐
+                                </label>
+                            </p>
+                            <span>---艺术</span>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup4" value="复选框" id="CheckboxGroup4_0"> 摄影
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup4" value="复选框" id="CheckboxGroup4_1"> 书法
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup4" value="复选框" id="CheckboxGroup4_2"> 美术
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup4" value="复选框" id="CheckboxGroup4_3"> 声乐
+                                </label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="text">
+                                <font color="red">*</font>最擅长的科目:</lable>
+                        </td>
+                        <td>
+                            <input type="text">
+                            <font color="blue">请填写你最拿手、最有经验的科目，例如：“英语、初中数理化、高三数学”，越具体越好，不超过三项</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>
+                                <font color="red">*</font>方便授课区域:</lable>
+                        </td>
+                        <td>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup5" value="复选框" id="CheckboxGroup5_0"> 火车站
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup5" value="复选框" id="CheckboxGroup5_1"> 商业街
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup5" value="复选框" id="CheckboxGroup5_2"> 东大街
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup5" value="复选框" id="CheckboxGroup5_3"> 小港
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup5" value="复选框" id="CheckboxGroup5_4"> 花园路
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup5" value="复选框" id="CheckboxGroup5_5"> 景秀路
+                                </label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="time">
+                                <font color="red">*</font>可授课时间:</label>
+                        </td>
+                        <td>
+                            <input type="time" name="time" id="time">
+                            <font color="blue">（请注意及时更新授课时间）</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>
+                                <font color="red">*</font>辅导方式:</lable>
+                        </td>
+                        <td>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup6" value="复选框" id="CheckboxGroup6_0"> 教员上门
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup6" value="复选框" id="CheckboxGroup6_1"> 学员上门
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup6" value="复选框" id="CheckboxGroup6_2"> 网上授课
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="CheckboxGroup6" value="复选框" id="CheckboxGroup6_3"> 协商
+                                </label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="textarea2">
+                                <font color="red">*</font>薪酬要求:</label>
+                        </td>
+                        <td>
+                            <textarea name="textarea2" id="textarea2" rows="10" cols="50"></textarea>
+                            <font color="blue">默认为接受青岛家教网的课时费标准（查看详细的报酬标准
+                                <变成链接>)，如果不同意，也可以在表中列出自己的薪酬要求，如：小学**元/时、小学奥数**元/时、初一**元/时、高三**元/时、钢琴**元/时、陪读**元/月。</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" id="submit" value="提交">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <footer class="footer">
+            <span><font color="blue">Copyright@2003~2008 版权所有 青岛家教网</font>
+            </span>
+        </footer>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+ /*magic cube动画*/
+ 
+ #box {
+     -webkit-animation: cartoon 6s ease-in-out infinite;
+     -webkit-transform-style: preserve-3d;
+     -webkit-transform-origin: 92px 92px 0;
+ }
+ 
+ #box>div {
+     position: absolute;
+     height: 184px;
+     width: 184px;
+     box-shadow: 5px 5px 5px rgba(64, 224, 208, .6);
+ }
+ 
+ .one {
+     -webkit-transform: translateZ(92px);
+ }
+ 
+ .two {
+     -webkit-transform: rotateY(90deg) translateZ(92px);
+ }
+ 
+ .three {
+     -webkit-transform: rotateY(90deg) translateZ(-92px);
+ }
+ 
+ .four {
+     -webkit-transform: rotateX(90deg) translateZ(92px);
+ }
+ 
+ .five {
+     -webkit-transform: rotateX(90deg) translateZ(-92px);
+ }
+ 
+ .six {
+     -webkit-transform: rotateX(180deg) translateZ(92px);
+ }
+ /*magic cube每个面上的小方块*/
+ 
+ #box >div >div {
+     height: 60px;
+     width: 60px;
+     border-radius: 8px;
+     float: left;
+     margin-left: 1px;
+     margin-top: 1px;
+ }
+ 
+ .one div {
+     background-color: #ff1493;
+ }
+ 
+ .two div {
+     background-color: #ff00ff;
+ }
+ 
+ .three div {
+     background-color: #9400d3;
+ }
+ 
+ .four div {
+     background-color: #00ffff;
+ }
+ 
+ .five div {
+     background-color: #ffff00;
+ }
+ 
+ .six div {
+     background-color: #00ff00;
+ }
+ /*magic cube的动画轨迹*/
+ 
+ @-webkit-keyframes cartoon {
+     from,
+     to {}
+     20% {
+         -webkit-transform: rotateY(90deg);
+     }
+     30% {
+         -webkit-transform: rotateY(-90deg)rotateZ(90deg);
+     }
+     50% {
+         -webkit-transform: rotateY(90deg)rotateZ(90deg);
+     }
+     70% {
+         -webkit-transform: rotateY(-90deg)rotateX(90deg);
+     }
+     90% {
+         -webkit-transform: rotateX(90deg);
+     }
+ }

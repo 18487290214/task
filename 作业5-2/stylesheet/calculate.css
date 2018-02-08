@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 14px arial;
+}
+
+
+/*计算器外框*/
+
+.clc {
+    width: 300px;
+    height: 326px;
+    border: 1px solid #d3d3d3;
+    background-color: #f5f5f5;
+    margin: 42px auto;
+}
+
+
+/*计算器外框   end*/
+
+
+/*计算器标题*/
+
+h4 {
+    color: #808080;
+    margin: 12px 0px 0px 12px;
+}
+
+
+/*计算器标题  end*/
+
+
+/*计算器显示屏*/
+
+.screen {
+	background-color: #ebebe4;
+    height: 56px;
+    margin: 0px 3px;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    display: inline-block;
+    font-size: 23px;
+    /*width: 292px;
+    height: 56px;*/
+    line-height: 20px;
+    color: #fff;
+    border: 0;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.display-box {
+	width:36%; 
+    float: left;
+}
+
+.display-box:nth-child(2) {
+    width: 36px;
+    text-align: center;
+}
+
+.display-box:nth-child(3) {
+    text-align: left;
+    /*width: 100%;*/
+}
+#showResult{
+	width: 100%;
+}
+
+/*计算器显示屏    end*/
+
+
+/*计算器错误提示*/
+
+#error {
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: right;
+    color: #ff0000;
+    padding: 0 10px;
+}
+
+
+/*计算器错误提示    end*/
+
+
+/*计算器数字按键*/
+
+.numbox {
+    /*position: relative;*/
+    margin-top: 10px;
+}
+
+input[type=button] {
+    width: 60px;
+    height: 28px;
+    margin: 6px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.equal {
+    width: 212px !important;
+}
+
+
+/*计算器数字按键   end*/

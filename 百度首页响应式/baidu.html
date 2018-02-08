@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>百度一下 你就知道</title>
+    <link rel="shortcut icon" href="../百度首页/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/baidu.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="u1">
+            <nav class="tag">
+                <a href="http://www.nuomi.com/?cid=002540" class="mnav">糯米</a>
+                <a href="http://news.baidu.com/" class="mnav">新闻</a>
+                <a href="http://www.hao123.com/" class="mnav">hao123</a>
+                <a href="http://map.baidu.com/" class="mnav">地图</a>
+                <a href="http://v.baidu.com/" class="mnav">视频</a>
+                <a href="http://tieba.baidu.com/" class="mnav">贴吧</a>
+                <a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" class="lb">登录</a>
+                <a href="http://www.baidu.com/gaoji/preferences.html" class="pf">设置
+                    
+                    </a>
+                <a href="https://www.baidu.com/more/" class="bris">更多产品</a>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="lg">
+                <img src="../百度首页/img/bd_logo1.png" alt="百度一下" style="width: 270px;height: 129px;">
+            </div>
+            <form id="form" name="f" action="/s" class="fm">
+                <span class="bg s_ipt_wr">
+        <span class="soutu-btn"></span>
+                <input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off">
+                </span>
+                <span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn"></span>
+            </form>
+        </div>
+        <div>
+            <div class="qrcode">
+                <img src="../百度首页/img/bd_logo2.png" style="width:60px;height: 60px">
+                <br>
+                <span style="font-weight: bolder;">手机百度</span>
+            </div>
+            <p class="p1">
+                <a href="https://www.baidu.com/cache/sethelp/help.html">
+                    把百度设为主页
+                </a>
+                <a href="http://home.baidu.com/">
+                    关于百度
+                </a>
+                <a href="http://ir.baidu.com/">
+                   
+                    About Baidu
+                </a>
+                <a href="http://e.baidu.com/?refer=888">
+                    百度推广
+                </a>
+            </p>
+        </div>
+        <p class="p2">
+            <span>©2017&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/">使用百度前必读</a>
+            <a href="http://jianyi.baidu.com/">意见反馈</a><span>&nbsp;京ICP证030173号&nbsp;<i class="icon-icrlogo"></i></span>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" class="pt-a">
+            京公网安备11000002000001号<i class="icon-jgwablogo"></i></a>
+            </span>
+        </p>
+    </div>
+    <!-- 屏幕小于750 -->
+    <div class="container2">
+        <div id="respond767">
+            <div id="hidtianqi" onclick="opentianqi()">
+            </div>
+            <div class="hdtop">
+                <div class="tianqi" onclick="opentianqi()">
+                    <img src="./img/tianqi5.png" width="28" height="28">
+                    <span>6°</span>
+                    <div class="status">
+                        <p>昆明</p>
+                        <p>28 良</p>
+                    </div>
+                </div>
+                <a href="" class="userinfo"></a>
+            </div>
+            <!-- logo -->
+            <div class="logo">
+                <img src="./img/xs_logo.png" alt="百度一下,你就知道">
+            </div>
+            <!-- end logo -->
+            <!-- 搜索条 -->
+            <div class="search">
+                <form action="https://www.baidu.com/s">
+                    <label>
+                        <input type="text" name="wd">
+                        <span></span>
+                        <span class="t2">
+                        <div class="hidbtn">
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                    </span>
+                    </label>
+                    <button type="submit">百度一下</button>
+                </form>
+            </div>
+            <!--搜索条   end-->
+            <!-- 导航条 -->
+            <div class="nav">
+                <ul>
+                    <li><a href="#"><span style="background-position: 0 -264px;"></span><p>关注</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -396px;"></span><p>新闻</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -330px;"></span><p>小说</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -462px;"></span><p>视频</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -418px;"></span><p>糯米</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -308px;"></span><p>地图</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -484px;"></span><p>贴吧</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -286px;"></span><p>图片</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -440px;"></span><p>网址</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -374px;"></span><p>推广</p></a></li>
+                    <li><a href="#"><span style="background-position: 0 -506px;"></span><p>音乐</p></a></li>
+                </ul>
+            </div>
+            <!--导航条   end -->
+            <!-- 新闻列表 -->
+            <div class="newslist">
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <h2>没有景甜的《变形金刚5》，一点也不好看！</h2>
+                    <div class="listimg clearfix">
+                        <img src="./img/listimg.jpeg" alt="">
+                        <img src="./img/listimg1.jpeg" alt="">
+                        <img src="./img/listimg2.jpeg" alt="">
+                    </div>
+                    <div class="news-from">
+                        <span class="src-net">次元饭</span>
+                        <span class="src-time">02-07</span>
+                    </div>
+                </li>
+            </div>
+            <!--新闻列表   end-->
+        </div>
+    </div>>
+    <!--屏幕小于750   end -->
+</body>
+
+</html>

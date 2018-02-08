@@ -1,0 +1,259 @@
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font: 12px arial;
+}
+
+input {
+    border: 0;
+    padding: 0;
+}
+
+
+/* header {
+    overflow: hidden;
+} */
+
+.u1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 19px 5px;
+    padding: 0 96px 0 0;
+}
+
+.mnav {
+    float: left;
+    color: #333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.mnav:hover {
+    color: #00c;
+}
+
+.lb {
+    display: inline-block;
+    float: left;
+    color: #333;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.lb:hover {
+    color: #00c;
+}
+
+.pf {
+    display: inline-block;
+    float: left;
+    color: #333;
+    line-height: 24px;
+    font-size: 13px;
+    margin-left: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pf:hover {
+    color: #00c;
+}
+
+.bris {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.lg {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+    margin: 22px auto 0;
+    width: 641px;
+    height: 37px;
+    text-align: left;
+    z-index: 100;
+}
+
+.s_ipt_wr {
+    height: 34px;
+    border: 1px solid #b6b6b6;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.s_ipt_wr:hover {
+    border-color: #4791ff transparent #4791ff #4791ff;
+}
+
+.soutu-btn {
+    z-index: 1;
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    margin-top: -8px;
+    height: 16px;
+    width: 18px;
+    background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+    cursor: pointer;
+}
+
+.soutu-btn:hover {
+    background-position: 0 -20px;
+}
+
+.s_ipt {
+    width: 500px;
+    height: 22px;
+    font: 16px/18px arial;
+    line-height: 22px\9;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+.s_btn_wr {
+    border-bottom: 1px solid transparent;
+    width: 97px;
+    height: 34px;
+    display: inline-block;
+    background-position: -120px -48px;
+    z-index: 0;
+    vertical-align: top;
+    float: left;
+}
+
+.s_btn {
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.s_btn:hover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+
+/*firefox 兼容*/
+
+@-moz-document url-prefix() {
+    .content form button {
+        float: right;
+        margin-top: -36px;
+    }
+}
+
+
+/*IE8、IE9兼容*/
+
+.content form button {
+    float: right\9;
+    margin-top: -36px\9;
+}
+
+
+/*IE6兼容*/
+
+.content form button {
+    _float: right;
+    _margin-top: -3px;
+}
+
+.qrcode {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 260px;
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p1 a {
+    margin-left: 24px;
+    color: gray;
+}
+
+.p2 {
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 47px;
+}
+
+.p2 i.icon-icrlogo {
+    background: url(../img/icons_5859e57.png) no-repeat;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+
+.p2 i.icon-jgwablogo {
+    background: url(../img/icons_5859e57.png) no-repeat;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    background-position: -623px -96px;
+    position: relative;
+    top: 3px;
+}
+
+.p2 a {
+    color: gray;
+}

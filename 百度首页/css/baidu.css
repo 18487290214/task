@@ -1,0 +1,138 @@
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font: 12px arial;
+}
+
+header {
+    overflow: hidden;
+}
+/*导航栏链接*/
+.u1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 19px 5px;
+    padding: 0 96px 0 0;
+}
+
+.mnav {
+    float: left;
+    color: #333;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+/*导航栏标签伪类*/
+.mnav:hover {
+    color: #00c;
+}
+
+.lb {
+    display: inline-block;
+    float: left;
+    color: #333;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.lb:hover {
+    color: #00c;
+}
+
+.pf {
+    display: inline-block;
+    float: left;
+    color: #333;
+    line-height: 24px;
+    font-size: 13px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.pf:hover {
+    color: #00c;
+}
+
+.bris {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.lg {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fm {
+    width: 604px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.content input {
+    background: url(../img/camera.png) no-repeat 475px 5px;
+    width: 500px;
+    height: 28px;
+    float: left;
+}
+
+.content form button {
+    border: 1px solid #fff;
+    background-color: #2d78f4;
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+    float: left;
+    margin-top: -1px;
+    -moz-float:right margin-top: -36px;
+}
+.qrcode{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 260px;
+}
+.p1{
+    text-align: center;
+   margin-top: 50px;
+}
+.p1 a{
+ margin-left:24px;
+
+}
+.p2{
+    text-align: center;
+    line-height: 24px;
+   margin-bottom: 30px;
+}
+

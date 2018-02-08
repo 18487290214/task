@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>js简易计算器</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/calculate.css">
+    <script type="text/javascript" src="js/calculate.js"></script>
+</head>
+
+<body>
+    <div class="clc">
+        <!-- 计算器标题 -->
+        <h4>简易计算器</h4>
+        <!-- 计算器标题   end-->
+        <!-- 计算器显示屏 -->
+        <div class="screen">
+           <input type="text" name="X" id="X" value="" class="display-box" disabled="disabled">
+			<input type="text" name=operator id="operator" value="" class="display-box" disabled="disabled">
+			<input type="text" name="Y" id="Y" value="" class="display-box" disabled="disabled">
+			<input type="text" name="showResult" id="showResult" disabled="disabled" value="">
+        </div>
+        <!-- 错误提示 -->
+        <div id="error"></div>
+        <!-- 错误提示    end -->
+        <!-- 计算器显示屏   end -->
+        <!-- 计算器数字按键 -->
+        <div class="numbox">
+            <!-- 第一排 -->
+            <input type="button" id="+" onclick="getOperator(this.id)" value="+">
+            <input type="button" id="-" onclick="getOperator(this.id)" value="-" title="减法运算">
+            <input type="button" id="×" onclick="getOperator(this.id)" value="×">
+            <input type="button" id="÷" onclick="getOperator(this.id)" value="÷">
+            <!-- 第二排 -->
+            <input type="button" id="1" onclick="getNum(this.id)" value="1">
+            <input type="button" id="2" onclick="getNum(this.id)" value="2">
+            <input type="button" id="3" onclick="getNum(this.id)" value="3">
+            <input type="button" id="%" onclick="getOperator(this.id)" value="%">
+            <!-- 第三排 -->
+            <input type="button" id="4" onclick="getNum(this.id)" value="4">
+            <input type="button" id="5" onclick="getNum(this.id)" value="5">
+            <input type="button" id="6" onclick="getNum(this.id)" value="6">
+            <input type="button" id="." onclick="getPoint(this.id)" value=".">
+            <!-- 第四排 -->
+            <input type="button" id="7" onclick="getNum(this.id)" value="7">
+            <input type="button" id="8" onclick="getNum(this.id)" value="8">
+            <input type="button" id="9" onclick="getNum(this.id)" value="9">
+            <input type="button" id="clear" onclick="clearNum()" value="c">
+            <!-- 第五排 -->
+            <input type="button" id="0" onclick="getNum(this.id)" value="0">
+            <input type="button" id="count" onclick="getCount(this.id)" value="=" class="equal">
+        </div>
+        <!-- 计算器数字按键    end-->
+    </div>
+</body>
+
+</html>
